@@ -16,29 +16,39 @@ body {
 
 .menu {
     height: 100vh;
-    min-width: 359px;
+    min-width: 400px;
+    max-width: 400px;
     flex-grow: 1;
     background: #252525;
 }
 
 .user {
     height: 100vh;
-    min-width: 359px;
+    min-width: 400px;
     flex-grow: 1;
     background: #333333;
 }
 
 .cv {
     height: 100vh;
-    min-width: 359px;
+    min-width: 400px;
     flex-grow: 1;
     background: #000000;
 }
 .content {
     height: 100vh;
     width: 25%;
-    min-width: 359px;
+    min-width: 400px;
     flex-grow: 2;
     background: #fff;
+}
+.menu img {
+    margin: 80px 0 20px 60px;
+}
+.underline {
+    max-width: 300px;
+    height: 3px;
+    background: #888;
+    margin: 20px auto;
 }
 
