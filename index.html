@@ -7,14 +7,33 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="menu">
-            <img src="wrLogo.png" alt="">
-            <div class="underline"></div>
-        </div>
-        <div class="user"></div>
-        <div class="cv"></div>
-        <div class="content"></div>
+    <div id="container">
+        <!-- Containner de todos os usuarios -->
+        <menu id="menu">
+
+            <div class="centralized">
+                <img src="wrLogo.png" alt="">
+                <div class="underline"></div>
+                <div class="search_box">
+                    <button type="submit"><img src="search.png" alt="search"></button>
+                    <input type="text" name="search" id="search" placeholder="Search...">
+                </div>
+                <div class="users_count">
+                    <img src="user.png" alt="user_symbol">
+                    <label for="underline">Users / <span>00000</span></label>
+                </div>
+            </div> 
+
+        </menu>
+
+        <!-- Containner do usuario selecionado -->
+        <div id="user_picture"></div>
+
+        <!-- Containner do curriculum do usuario selecionado -->
+        <div id="user_cv"></div>
+
+        <!-- Containner dos trabalhos do usuario selecionado -->
+        <div id="user_content"></div>
     </div>
 </body>
 </html>
